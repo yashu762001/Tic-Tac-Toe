@@ -1,0 +1,22 @@
+.c1 {
+   background-color:lightcyan;
+    font-size: 30px;
+    color: sienna;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+#i1 {
+    transform: translateX(500px);
+}
+
+* {
+    background-color: whitesmoke;
+}
+
+#heading1 {
+    text-align: center;
+    color: salmon;
+}
