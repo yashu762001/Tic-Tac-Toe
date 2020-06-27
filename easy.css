@@ -1,0 +1,83 @@
+td {
+    width: 130px;
+    height: 130px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    cursor: pointer;
+    display: none;
+}
+
+#p1,#p2 {
+   transform: translateX(576px);
+}
+
+#btn2 {
+    font-size: 20px;
+    background-color: lightseagreen;
+    color: maroon;
+    font-weight: bold;
+    transform: translate(620px,-330px);
+    visibility: hidden;
+    cursor: pointer;
+   
+}
+
+#result {
+    color: black;
+    font-weight: bold;
+    width: 240px;
+    height: 130px;
+    transform: translate(560px,-240px);
+    text-align: center;
+    background-color: lightgreen;
+    visibility: hidden;
+}
+
+table {
+    margin :auto;
+    border-collapse: collapse;
+    transform: translateY(20px);
+}
+
+td:hover {
+    background-color: blue;
+}
+
+#heading1 {
+    text-align: center;
+}
+
+#btn {
+    background-color: cornsilk;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    transform: translate(600px, 30px);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#btn1 {
+    background-color: forestgreen;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translateX(580px);
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: chartreuse;
+    
+}
+
+.endgame {
+    background-color: aqua;
+    width: 290px;
+    height: 160px;
+    display: flex;
+    transform: translate(510px, -330px);
+    display: none;
+    font-size: 20px;
+
+}
