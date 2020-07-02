@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href  = "hard.css" type = "text/css" rel = "stylesheet">
+        <title> Hard Game With Computer</title>
+    </head>
+
+  <body>
+
+    <h1 id = "heading1"> Tic Tac Toe Game</h1>
+    
+    <input type ="text" name = "Player1" placeholder="Player1" id = "p1" required > </input> <br> <br>
+    <input type = "text" id = "p2" placeholder="Type X or O" required > </input>  <br> <br>
+   
+    <button id = "btn1" onclick = "startgame()"> Play Game </button>
+
+    <br>
+
+    <h2 id = "about1"> </h2>
+    <h2 id = "about2"> </h2>
+
+    <table>
+        <theader>
+            <td class = "cell" id = "0" onclick="func1(0)"> </td>
+            <td class = "cell" id = "1" onclick="func1(1)"> </td>
+            <td class = "cell" id = "2" onclick="func1(2)"> </td>
+        </theader>
+
+        <tbody>
+            <td class = "cell" id = "3" onclick="func1(3)"> </td>
+            <td class = "cell" id = "4" onclick="func1(4)"> </td>
+            <td class = "cell" id = "5" onclick="func1(5)"> </td>
+        </tbody>
+
+        <tfooter>
+            <td class = "cell" id = "6" onclick="func1(6)"> </td>
+            <td class = "cell" id = "7" onclick="func1(7)"> </td>
+            <td class = "cell" id = "8" onclick="func1(8)"> </td>
+        </tfooter>
+    </table>
+
+    <!-- This class is just to decide the winner of the game. -->
+    <div class = "final">
+        <h2 id = "result"> Player1 Won </h2>
+        <button id = "btn2" onclick="restart()"> Play Again </button>
+    </div>
+
+    <!-- <button id ="btn" onclick="restart()">Replay</button> -->
+
+
+
+  </body>
+  
+  <script src = "hard.js" type = "text/javascript"></script>
+</html>
